@@ -1,3 +1,4 @@
-SECRET_KEY = '#d#JCqTTW\nilK\\7m\x0bp#\tj~#H'
+import os
+basedir = os.path.abspath(os.path.dirname(__file__))
 
-FB_APP_ID = 1200420960103822
+SQLALCHEMY_DATABASE_URI = 'postgresql://root:25052002@localhost/e-learning'
